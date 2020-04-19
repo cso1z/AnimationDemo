@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Frame Animation!"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Scale Animation!"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/alpha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Alpha Animation!"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Rotate Animation!"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Translate Animation!"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Set Animation!"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/test_for_relative_to_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Relative To Parent"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

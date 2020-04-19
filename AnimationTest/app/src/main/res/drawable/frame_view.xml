@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/sign_icon_1"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_2"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_3"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_4"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_5"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_6"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_7"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_8"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_9"
+        android:duration="50" />
+
+    <item
+        android:drawable="@drawable/sign_icon_10"
+        android:duration="50" />
+
+    <item
+        android:drawable="@drawable/sign_icon_11"
+        android:duration="50" />
+
+    <item
+        android:drawable="@drawable/sign_icon_12"
+        android:duration="50" />
+
+    <item
+        android:drawable="@drawable/sign_icon_13"
+        android:duration="50" />
+
+    <item
+        android:drawable="@drawable/sign_icon_14"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_15"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/sign_icon_1"
+        android:duration="800" />
+
+
+</animation-list>

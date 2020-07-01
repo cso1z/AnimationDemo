@@ -27,6 +27,7 @@
         <activity android:name=".viewanimation.FrameAnimationActivity" />
         <activity android:name=".valueanimation.ValueAnimationOfObjectActivity" />
         <activity android:name=".valueanimation.ValueAnimationMenuActivity" />
+        <activity android:name=".valueanimation.ObjectAnimationActivity" />
     </application>
 
 </manifest>

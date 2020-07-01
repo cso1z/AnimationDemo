@@ -16,6 +16,17 @@
         android:textColor="#FFFFFF" />
 
     <TextView
+        android:id="@+id/object_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="object Animation"
+        android:textColor="#FFFFFF" />
+
+    <TextView
         android:id="@+id/demo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

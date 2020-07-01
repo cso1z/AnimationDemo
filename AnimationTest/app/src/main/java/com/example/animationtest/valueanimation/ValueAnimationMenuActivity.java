@@ -19,6 +19,7 @@ public class ValueAnimationMenuActivity extends BaseActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_value_animation_menu);
         findViewById(R.id.of_object).setOnClickListener(this);
+        findViewById(R.id.object_animation).setOnClickListener(this);
         findViewById(R.id.demo).setOnClickListener(this);
     }
 
@@ -28,6 +29,9 @@ public class ValueAnimationMenuActivity extends BaseActivity implements View.OnC
         Intent intent = new Intent();
         if (id == R.id.of_object) {
             intent.setClass(ValueAnimationMenuActivity.this, ValueAnimationOfObjectActivity.class);
+        }
+        if (id == R.id.object_animation) {
+            intent.setClass(ValueAnimationMenuActivity.this, ObjectAnimationActivity.class);
         } else if (id == R.id.demo) {
             intent.setClass(ValueAnimationMenuActivity.this, ValueAnimationActivity.class);
         }

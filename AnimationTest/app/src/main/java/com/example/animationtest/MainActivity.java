@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.animationtest.base.BaseActivity;
-import com.example.animationtest.valueanimation.ValueAnimationActivity;
+import com.example.animationtest.valueanimation.ValueAnimationMenuActivity;
 import com.example.animationtest.viewanimation.ViewAnimationActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
@@ -24,7 +24,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         Intent intent = new Intent();
         switch (id) {
             case R.id.text1:
-                intent.setClass(MainActivity.this, ValueAnimationActivity.class);
+                intent.setClass(MainActivity.this, ValueAnimationMenuActivity.class);
                 break;
             case R.id.text2:
                 intent.setClass(MainActivity.this, ViewAnimationActivity.class);

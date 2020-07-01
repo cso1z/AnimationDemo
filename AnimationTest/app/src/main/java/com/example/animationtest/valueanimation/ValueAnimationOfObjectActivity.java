@@ -8,6 +8,7 @@ import com.example.animationtest.R;
 import com.example.animationtest.base.BaseActivity;
 
 /**
+ * ValueAnimator.ofObject()使用
  * created by shenyonghui on 2020/7/1
  */
 public class ValueAnimationOfObjectActivity extends BaseActivity {

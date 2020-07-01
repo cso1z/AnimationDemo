@@ -9,6 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
+ * ofObject 具体使用类
  * created by shenyonghui on 2020/7/1
  */
 public class PointView extends View {

@@ -1,6 +1,7 @@
 package com.example.animationtest.valueanimation.ofobject;
 
 /**
+ * 点对象类
  * created by shenyonghui on 2020/7/1
  */
 public class Point {

@@ -10,6 +10,7 @@ import com.example.animationtest.R;
 import com.example.animationtest.base.BaseActivity;
 
 /**
+ * 属性动画菜单
  * created by shenyonghui on 2020/7/1
  */
 public class ValueAnimationMenuActivity extends BaseActivity implements View.OnClickListener {

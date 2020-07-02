@@ -12,7 +12,7 @@ import com.example.animationtest.base.BaseActivity;
 /**
  * created by john on 2020/4/12
  */
-public class ViewAnimationActivity extends BaseActivity implements View.OnClickListener {
+public class ViewAnimationMenuActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -31,19 +31,19 @@ public class ViewAnimationActivity extends BaseActivity implements View.OnClickL
     public void onClick(View v) {
         int id = v.getId();
         if (id == R.id.frame) {
-            startActivity(new Intent(ViewAnimationActivity.this, FrameAnimationActivity.class));
+            startActivity(new Intent(ViewAnimationMenuActivity.this, FrameAnimationActivity.class));
         } else if (id == R.id.scale) {
-            startActivity(new Intent(ViewAnimationActivity.this, ScaleAnimationActivity.class));
+            startActivity(new Intent(ViewAnimationMenuActivity.this, ScaleAnimationActivity.class));
         } else if (id == R.id.alpha) {
-            startActivity(new Intent(ViewAnimationActivity.this, AlphaAnimationActivity.class));
+            startActivity(new Intent(ViewAnimationMenuActivity.this, AlphaAnimationActivity.class));
         } else if (id == R.id.rotate) {
-            startActivity(new Intent(ViewAnimationActivity.this, RotateAnimationActivity.class));
+            startActivity(new Intent(ViewAnimationMenuActivity.this, RotateAnimationActivity.class));
         } else if (id == R.id.translate) {
-            startActivity(new Intent(ViewAnimationActivity.this, TranslateAnimationActivity.class));
+            startActivity(new Intent(ViewAnimationMenuActivity.this, TranslateAnimationActivity.class));
         } else if (id == R.id.set) {
-            startActivity(new Intent(ViewAnimationActivity.this, SetAnimationActivity.class));
+            startActivity(new Intent(ViewAnimationMenuActivity.this, SetAnimationActivity.class));
         } else if (id == R.id.test_for_relative_to_parent) {
-            startActivity(new Intent(ViewAnimationActivity.this, TestRelativeToParentActivity.class));
+            startActivity(new Intent(ViewAnimationMenuActivity.this, TestRelativeToParentActivity.class));
         }
     }
 }

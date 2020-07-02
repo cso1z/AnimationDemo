@@ -24,5 +24,7 @@
         android:fromXDelta="0%"
         android:fromYDelta="0%"
         android:toXDelta="30%p"
+        android:repeatCount="-1"
+        android:repeatMode="reverse"
         android:toYDelta="30%p" />
 </set>

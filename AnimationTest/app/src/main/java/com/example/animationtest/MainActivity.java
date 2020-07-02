@@ -1,12 +1,13 @@
 package com.example.animationtest;
 
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import com.example.animationtest.base.BaseActivity;
 import com.example.animationtest.valueanimation.ValueAnimationMenuActivity;
-import com.example.animationtest.viewanimation.ViewAnimationActivity;
+import com.example.animationtest.viewanimation.ViewAnimationMenuActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -27,11 +28,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 intent.setClass(MainActivity.this, ValueAnimationMenuActivity.class);
                 break;
             case R.id.text2:
-                intent.setClass(MainActivity.this, ViewAnimationActivity.class);
+                intent.setClass(MainActivity.this, ViewAnimationMenuActivity.class);
             default:
                 break;
         }
         startActivity(intent);
-
     }
 }

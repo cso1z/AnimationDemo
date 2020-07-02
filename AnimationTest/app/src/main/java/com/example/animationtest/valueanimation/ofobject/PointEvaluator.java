@@ -4,7 +4,7 @@ import android.animation.TypeEvaluator;
 
 /**
  * 估值器
- * 现TypeEvaluator接口
+ * 实现TypeEvaluator接口
  * created by shenyonghui on 2020/7/1
  */
 public class PointEvaluator implements TypeEvaluator {

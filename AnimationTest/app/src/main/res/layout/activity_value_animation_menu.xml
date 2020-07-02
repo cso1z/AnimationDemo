@@ -27,6 +27,17 @@
         android:textColor="#FFFFFF" />
 
     <TextView
+        android:id="@+id/diy_object_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#888888"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="自定义 object Animation 属性"
+        android:textColor="#FFFFFF" />
+
+    <TextView
         android:id="@+id/demo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

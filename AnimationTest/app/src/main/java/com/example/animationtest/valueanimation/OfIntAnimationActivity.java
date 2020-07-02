@@ -58,7 +58,7 @@ public class OfIntAnimationActivity extends BaseActivity implements View.OnClick
     private void ofIntTest() {
         final int height = scrollView.getMeasuredHeight();
         if (animation == null) {
-            animation = ofInt(0, 100);
+            animation = ValueAnimator.ofInt(0, 100);
             animation.setDuration(3000);
             animation.setRepeatMode(ValueAnimator.RESTART);
             animation.setRepeatCount(-1);
